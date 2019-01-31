@@ -9,3 +9,24 @@ header h1 {
   font-family: 'Satisfy', cursive;
   margin-top: 20px;
 }
+
+.nav-pills>li.active>a {
+  color: blue;
+  background-color: #eeddcd;
+}
+
+.nav-pills>li.active>a:hover {
+  color: red;
+  background-color: #edf1f4;
+}
+
+nav li {
+  font-size: 15px;
+}
+
+.jumbotron {
+  background-image: url('../img/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+}
